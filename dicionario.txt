@@ -1,0 +1,22 @@
+Este arquivo é voltado para a função de "dicionario" para cada comando.
+
+-- "SELECT" --
+Toda consulta de tabelas precisa ao menos de duas instruções em sua sintaxe. A primeira
+é a "SELECT", onde é passado uma lista de colunas que se deseja obter, bem como realizar a criação
+de novas colunas e cálculos.
+
+-- Ver a parte prática no arquivo "01_select.sql"
+
+
+====================================================================================================
+
+-- "FROM" --
+Está é a segunda instrução necessária para realizar uma consulta simples.
+Devemos informar a partir de qual tabela desejamos obter  os dados.
+
+Assim, para selecionar todas as colunas de uma tabela, temos: 
+
+SELECT *
+FROM tabela
+
+Note que o '*' representa todas as colunas.
