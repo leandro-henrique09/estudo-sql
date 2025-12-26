@@ -1,1 +1,4 @@
-SELECT idCliente,qtdePontos  FROM clientes
+SELECT idCliente,
+       qtdePontos
+       
+FROM clientes
