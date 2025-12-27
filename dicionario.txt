@@ -35,3 +35,19 @@ FROM tabela
 LIMIT 10
 
 No exemplo acima, só vão aparecer 10 linhas no final.
+
+
+=======================================================================
+-- "WHERE" --
+
+Agora que temos uma query simples, podemos adicionar algumas instruções adicionais. 
+Talvez seja necessário realizar algum tipo de filtro, para isso utilizamos o WHERE com uma condição lógica.
+
+Exemplo: 
+
+SELECT *
+FROM cliente
+WHERE flEmail = 1
+
+Podemos ler esse código em linguagem natural da seguinte forma: 
+“selecione todas colunas da tabela cliente onde os valores da coluna flEmail sejam iguais a 1 ”
