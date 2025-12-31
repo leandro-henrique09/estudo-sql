@@ -51,3 +51,18 @@ WHERE flEmail = 1
 
 Podemos ler esse código em linguagem natural da seguinte forma: 
 “selecione todas colunas da tabela cliente onde os valores da coluna flEmail sejam iguais a 1 ”
+
+
+===========================================================================
+-- "AGREGAÇÕES" -- 
+
+Em muitos momentos desejamos alguns dados sumarizados, 
+como por exemplo: contagem, média, variância, mínimo, máximo, etc.
+
+Exemplo de cada um:
+
+Contagem de linhas: count(*)
+Contagem de linhas distintas: count(distinct column)
+Soma: sum(column)
+Média: avg(column)
+Máximo: max(column)
