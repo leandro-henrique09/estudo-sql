@@ -16,7 +16,7 @@ tb_acum AS (
 
     FROM tb_diario
 )
-
+;
 INSERT INTO relatorio_diario
 
 SELECT *
